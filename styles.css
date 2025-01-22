@@ -21,7 +21,6 @@ header {
   font-size: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .nav-list {
@@ -41,3 +40,59 @@ a {
   color: #E5E7EB;
 }
 
+.subcontainer {
+  display: flex; /* Flexbox for horizontal layout */
+  align-items: center; /* Vertically center content */
+  justify-content: space-between; /* Space between text and image */
+  padding: 100px 300px; /* Adjust padding as needed */
+}
+
+.text-content {
+  max-width: 600px; /* Constrain the text width */
+}
+
+.bigtext {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.smalltext {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin-bottom: 20px;
+  line-height: 1.5; /* Improve readability */
+}
+
+.btn {
+  background-color: #3882F6;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #296CCF; /* Darken button on hover */
+}
+
+.image {
+  max-width: 600px; /* Adjust the image size */
+  width: 100%; /* Ensure responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: add rounded corners */
+
+}
+
+.infoheader{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.information{
+  padding: 50px 300px;
+}
